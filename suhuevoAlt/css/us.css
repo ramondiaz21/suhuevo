@@ -1,0 +1,35 @@
+.nosotros {
+}
+
+.nosotros .icon-wrapper {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+
+.nosotros .wrapper-content {
+  width: 100%;
+  display: flex;
+}
+
+.nosotros .left-side, .right-side {
+  display: inline-block;
+  width: 50%;
+  float: left;
+  text-align: center;
+  padding: 15px
+}
+
+.nosotros .left-side p, .nosotros .right-side p {
+  text-align: justify;
+}
+
+.nosotros .carousel-item {
+  height: 50vw;
+}
+
+.nosotros .image-wrapper {
+  background: url('../image/us.jpeg') center/cover no-repeat;
+  height: 50vw;
+  width: 100%;
+}

@@ -1,0 +1,30 @@
+
+
+
+.strips__strip--expanded {
+  height: 130vw;
+}
+
+.strips__strip--expandedAlt {
+  height: 130vw;
+}
+
+.strips .strip__inner-text {
+  width: 85%;
+}
+
+.strip__inner-text {
+  height: 100%;
+}
+
+.strip__content h1 {
+  color: white !important;
+}
+
+.strip__close {
+  position: fixed;
+}
+
+.strip__content .address-wrapper h1, .strip__content .social-wrapper h1 {
+  color: #244F75 !important;
+}

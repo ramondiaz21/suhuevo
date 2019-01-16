@@ -1,0 +1,182 @@
+.index {
+
+}
+
+.index .carousel {
+  height: 30vw;
+}
+
+.index .carousel-inner, .index .carousel-item {
+  height: 100%;
+}
+
+.index .carousel-inner img{
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.index .carousel-inner .shadow-wrapper {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+}
+
+.index .carousel-caption h5, .index .carousel-caption p {
+  color: white !important;
+}
+
+.full-container {
+  width: 100% !important;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.index h1 {
+  color: #244F75 !important;
+  margin: 20px 0;
+}
+
+
+
+/*.index .content-wrapper {
+  display: inline-block;
+  width: 100%;
+}
+
+.portfolio-big, .portfolio-medium, .portfolio-small {
+  float: left;
+  margin: 10px;
+  position: relative;
+}
+
+.portfolio-big {
+  padding-bottom: calc(50% - 20px);
+  width: calc(50% - 20px);
+}
+
+.portfolio-medium {
+  padding-bottom: calc(25% - 20px);
+  width: calc(50% - 20px);
+}
+
+.portfolio-1 {
+  background: url('../image/caja360.png') center/cover no-repeat;
+}
+
+.portfolio-2 {
+  background: url('../image/carpeta.jpg') center/cover no-repeat;
+}
+
+.portfolio-3 {
+  background: url('../image/individual.jpg') center/cover no-repeat;
+}*/
+
+.index .content {
+  width: 85%;
+  display: block;
+  margin: auto;
+}
+
+.index .content-wrapper {
+  width: 100%;
+  display: block;
+}
+
+.index .left-side, .index .right-side {
+  display: inline-block;
+  float: left;
+  padding: 20px;
+}
+
+.index .left-side {
+  width: 30%;
+}
+
+.index .right-side {
+  width: 70%;
+}
+
+.index .right-wrapper {
+  width: 100%;
+  position: relative;
+}
+
+.index .first-image-wrapper {
+  width: 40%;
+  position:absolute;
+  left: 0;
+  top: 0;
+  z-index: 3;
+}
+
+.index .first-image-wrapper img{
+  width: 100%;
+}
+
+.index .right-side .slide{
+  position: absolute;
+  background: #999;
+  width: 200px;
+  left: 14px;
+  height: 100px;
+  top: 0;
+  z-index: -1;
+  transition: left 0.4s ease-in-out;
+  -o-transition: left 0.4s ease-in-out;
+  -ms-transition: left 0.4s ease-in-out;
+  -moz-transition: left 0.4s ease-in-out;
+  -webkit-transition: left 0.4s ease-in-out;
+}
+.index .right-side .toggle{
+  position: absolute;
+  left: 200px;
+  padding: 10px;
+  background: #ccc;
+}
+.index .right-side .box {
+  height: 100%;
+  background: url('../image/carpeta.jpg') center/cover no-repeat;
+
+}
+.index .right-side .slide:hover{
+  left: 100%;
+  width: 100%;
+  z-index: 10;
+}
+
+.index .right-side .slide2{
+  position: absolute;
+  background: #244F75;
+  width: 200px;
+  left: 14px;
+  height: 100px;
+  top: 40px;
+  z-index: -1;
+  transition: left 0.4s ease-in-out;
+  -o-transition: left 0.4s ease-in-out;
+  -ms-transition: left 0.4s ease-in-out;
+  -moz-transition: left 0.4s ease-in-out;
+  -webkit-transition: left 0.4s ease-in-out;
+}
+.index .right-side .toggle2{
+  position: absolute;
+  left: 200px;
+  padding: 10px;
+  background: #244F75 ;
+}
+.index .right-side .box2 {
+  height: 100%;
+  background: url('../image/individual.jpg') center/cover no-repeat;
+
+}
+.index .right-side .slide2:hover{
+  left: 100%;
+  width: 100%;
+  z-index: 10;
+}

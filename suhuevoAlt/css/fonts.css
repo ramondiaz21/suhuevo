@@ -1,0 +1,26 @@
+@font-face{
+ font-family: Raleway-Light;
+ src:  url(../fonts/Raleway-Light.ttf);
+}
+
+@font-face{
+ font-family: Raleway-SemiBold;
+ src:  url(../fonts/Raleway-SemiBold.ttf);
+}
+
+@font-face{
+ font-family: Raleway-Bold;
+ src:  url(../fonts/Raleway-Bold.ttf);
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: Raleway-SemiBold !important;
+}
+
+p, a, label {
+  font-family: Raleway-Light !important;
+}
+
+h1,h2,h3,h4,h5,h6, p, a, label,i {
+  color: #244F75 !important;
+}

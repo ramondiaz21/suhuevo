@@ -1,0 +1,117 @@
+.beneficios {
+}
+
+.beneficios .content-wrapper {
+  display: flex;
+  width: 100%;
+  padding: 15px;
+}
+
+.beneficios .column-wrapper {
+  width: 33%;
+  display: inline-block;
+  float: left;
+}
+
+.beneficios .info-wrapper{
+  display: block;
+  width: 100%;
+  padding: 20px;
+}
+
+/**.beneficios .icon-wrapper, .beneficios .title-wrapper {
+  display: inline-block;
+  float: left;
+  width: 50%;
+}*/
+
+.beneficios .half {
+  display: inline-block;
+  float: left;
+}
+
+.beneficios .title-wrapper{
+  text-align: center;
+  margin: auto;
+}
+
+.beneficios .title-wrapper h4 {
+  margin: 0;
+}
+
+.beneficios .info {
+  width: 100%;
+  display: flex;
+  text-align: justify;
+  position: relative;
+}
+
+.beneficios .floating {
+  animation-name: floating;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  /* margin-left: 30px; */
+  margin-top: 10px;
+}
+
+@keyframes floating {
+    from { transform: translate(0,  0px); }
+    65%  { transform: translate(0, 50px); }
+    to   { transform: translate(0, -0px); }
+}
+
+.beneficios .image {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.beneficios .info:hover .shadow-wrapper{
+  visibility: visible;
+  opacity: 1;
+
+}
+
+.beneficios .shadow-wrapper {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(1, 50, 67, .6);
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+  border-radius: 5px;
+  height: calc(100% - 10px);
+  margin-top: 10px;
+
+  /* transition effect. not necessary */
+  transition: opacity 1s, visibility 1s;
+}
+
+.beneficios .paragraph-wrapper {
+  width: 100%;
+  height: 100%;
+  display: block;
+  padding: 20px;
+  text-align: center;
+  position: relative;
+}
+
+.beneficios .paragraph-wrapper p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  color: white !important;
+}
+
+.beneficios .image-wrapper {
+  background: url('../image/benefits.jpg') center/cover no-repeat;
+  height: 50vw;
+  width: 100%;
+}
