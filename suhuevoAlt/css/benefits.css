@@ -7,10 +7,24 @@
   padding: 15px;
 }
 
+@media screen and (max-width: 760px) {
+  .beneficios .content-wrapper {
+    display: block;
+  }
+}
+
 .beneficios .column-wrapper {
   width: 33%;
   display: inline-block;
   float: left;
+}
+
+@media screen and (max-width: 760px) {
+  .beneficios .column-wrapper {
+    width: 100%;
+    display: block;
+    margin: 10px 0;
+  }
 }
 
 .beneficios .info-wrapper{
@@ -114,4 +128,10 @@
   background: url('../image/benefits.jpg') center/cover no-repeat;
   height: 50vw;
   width: 100%;
+}
+
+@media screen and (max-width: 500px) {
+  .beneficios .half {
+    font-size: 1.2em;
+  }
 }

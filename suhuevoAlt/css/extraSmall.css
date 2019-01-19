@@ -1,0 +1,22 @@
+@media all and (max-width: 575px) {
+  .strips__strip:nth-child(1) .background-image {
+    background-image: url('../image/row1S.jpg');
+  }
+  .strips__strip:nth-child(2) .background-image {
+    background-image: url('../image/row2s.jpg');
+  }
+
+  .strips__strip:nth-child(3) .background-image {
+    background-image: url('../image/row3s.jpg');
+  }
+
+  .strips__strip:nth-child(4) .background-image {
+    background-image: url('../image/row4s.jpg');
+  }
+
+  .strips__strip:nth-child(5) .background-image {
+    background-image: url('../image/row5s.jpg');
+  }
+
+/*END OF MEDIA QUERY*/
+}

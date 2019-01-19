@@ -110,22 +110,57 @@
     transform: translateX(-60px) translateZ(-50px) rotateY(-10deg);
     background-image: url('../image/user.png');
 }
+
+@media screen and (max-width: 500px) {
+  .instalaciones .lefter {
+    transform: translateX(-37px) translateZ(-50px) rotateY(-10deg);
+  }
+}
+
 .instalaciones .left{
     transform: translateX(-30px) translateZ(-25px) rotateY(-5deg);
     background-image: url('../image/store.png');
 }
+
+@media screen and (max-width: 500px) {
+  .instalaciones .left {
+    transform: translateX(-20px) translateZ(-25px) rotateY(-5deg);
+  }
+}
+
 .instalaciones .center{
     opacity: 1;
     background-image: url('../image/farm1.png');
 }
+
+@media screen and (max-width: 500px) {
+  .center {
+    width: 200px;
+  }
+}
+
 .instalaciones .right{
     transform: translateX(30px) translateZ(-25px) rotateY(5deg);
     background-image: url('../image/truck.png');
 }
+
+@media screen and (max-width: 500px) {
+  .instalaciones .right {
+    transform: translateX(20px) translateZ(-25px) rotateY(5deg);
+  }
+}
+
 .instalaciones .righter{
     transform: translateX(60px) translateZ(-50px) rotateY(10deg);
     background-image: url(https://cdn3.iconfinder.com/data/icons/other-icons/48/creative_draw-512.png);
 }
+
+@media screen and (max-width: 500px) {
+  .instalaciones .righter {
+    transform: translateX(37px) translateZ(-50px) rotateY(10deg);
+  }
+}
+
 .instalaciones .explainer{
     font-weight: 300;
     font-size: 2rem;

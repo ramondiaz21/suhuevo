@@ -1,13 +1,41 @@
 
-
-
-.strips__strip--expanded {
+.strips__strip--expanded, .strips__strip--expandedIndex, .strips__strip--expandedBenefits, .strips__strip--expandedUs {
   height: 130vw;
 }
 
-.strips__strip--expandedAlt {
-  height: 130vw;
+@media screen and (max-width: 760px) {
+  .strips__strip--expanded {
+    height: 270vw;
+  }
+
+  .strips__strip--expandedIndex {
+    height: 270vw;
+  }
+
+  .strips__strip--expandedBenefits {
+    height: 400vw;
+  }
 }
+
+@media screen and (max-width: 500px) {
+  .strips__strip--expanded {
+    height: 600vw;
+  }
+
+  .strips__strip--expandedIndex {
+    height: 645vw;
+  }
+
+  .strips__strip--expandedBenefits {
+    height: 710vw;
+  }
+
+  .strips__strip--expandedUs {
+    height: 665vw;
+  }
+
+}
+
 
 .strips .strip__inner-text {
   width: 85%;

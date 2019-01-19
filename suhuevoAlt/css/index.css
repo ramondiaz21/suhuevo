@@ -180,3 +180,13 @@
   width: 100%;
   z-index: 10;
 }
+
+@media screen and (max-width: 500px) {
+  .index .carousel {
+    height: 100vw;
+  }
+
+  .index h1 {
+    font-size: 2rem;
+  }
+}

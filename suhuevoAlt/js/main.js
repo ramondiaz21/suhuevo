@@ -2,6 +2,8 @@ jQuery(document).ready(function($){
 var Expand = (function() {
   var tile = $('.strips__strip');
   var tileIndex = $('.indexStrip');
+  var tileBenefits = $('.benefitsStrip');
+  var tileUs = $('.UsStrip');
   var tileLink = $('.strips__strip > .strip__content');
   var tileText = tileLink.find('.strip__inner-text .full');
   var stripClose = $('.strip__close');
@@ -14,8 +16,12 @@ var Expand = (function() {
 
       if (!expanded) {
         tile.addClass('strips__strip--expanded');
-        tileIndex.addClass('strips__strip--expandedAlt');
+        tileBenefits.addClass('strips__strip--expandedBenefits');
+        tileIndex.addClass('strips__strip--expandedIndex');
+        tileUs.addClass('strips__strip--expandedUs');
+
         tileLink.removeClass('background-image');
+
         tileLink.addClass('background-colors');
         tileText.addClass('full-container');
 
@@ -30,7 +36,10 @@ var Expand = (function() {
   var close = function() {
     if (expanded) {
       tile.removeClass('strips__strip--expanded');
-      tileIndex.removeClass('strips__strip--expandedAlt');
+      tileIndex.removeClass('strips__strip--expandedIndex');
+      tileBenefits.removeClass('strips__strip--expandedBenefits');
+      tileUs.removeClass('strips__strip--expandedUs');
+
       tileLink.removeClass('background-colors');
       tileLink.addClass('background-image');
       tileText.removeClass('full-container');

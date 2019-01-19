@@ -487,3 +487,48 @@ main {
     65%  { transform: translate(0, 50px); }
     to   { transform: translate(0, -0px); }
 }
+
+
+@media screen and (max-width: 500px) {
+
+  aside, main {
+    width: 100%;
+    padding: 1rem;
+  }
+
+  .device {
+    position: relative;
+    /* top: calc(50% - 408px); */
+    right: 0;
+    /* display: none; */
+    height: 182vw;
+    width: 100%;
+    padding: 90px 10px;
+  }
+
+  .device .content h3{
+    font-size: 1.2em;
+  }
+
+  .weather .degrees {
+    font-size: 1.2em;
+  }
+
+  .weather .data h2 {
+    font-size: 1.2em;
+  }
+
+ .weather .data div {
+   font-size: 1em;
+ }
+
+  .meta h1 {
+    font-size: 2rem;
+  }
+
+  .weather .content {
+    padding: 0;
+    margin: 5px 5px 0 0;
+  }
+
+}

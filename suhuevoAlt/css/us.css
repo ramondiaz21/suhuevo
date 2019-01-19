@@ -12,12 +12,28 @@
   display: flex;
 }
 
+@media screen and (max-width: 760px) {
+  .nosotros .wrapper-content {
+    width: 100%;
+    display: block;
+  }
+}
+
 .nosotros .left-side, .right-side {
   display: inline-block;
   width: 50%;
   float: left;
   text-align: center;
   padding: 15px
+}
+
+@media screen and (max-width: 760px) {
+  .nosotros .left-side, .right-side {
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 15px;
+  }
 }
 
 .nosotros .left-side p, .nosotros .right-side p {

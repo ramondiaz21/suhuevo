@@ -4,6 +4,12 @@
   width: 100%;
 }
 
+@media screen and (max-width: 500px) {
+  .contacto .image-wrapper {
+    height: 50vw;
+  }
+}
+
 .contacto h2 {
   margin: 20px 0;
 }
@@ -13,11 +19,23 @@
   width: 100%;
 }
 
+@media screen and (max-width: 500px) {
+  .contacto .content-wrapper {
+    display: block;
+  }
+}
+
 .contacto .left-side, .contacto .right-side {
   display: inline-block;
   width: 50%;
   float: left;
   padding: 0 !important;
+}
+
+@media screen and (max-width: 500px) {
+  .contacto .left-side, .contacto .right-side {
+    width: 100%;
+  }
 }
 
 .contacto .left-side iframe {
@@ -41,6 +59,12 @@
   margin: auto;
 }
 
+@media screen and (max-width: 500px) {
+  .contacto input, .contacto textarea, .contacto button {
+    width: 85%;
+  }
+}
+
 /*.contacto button {
   text-align: center;
   width: 60%;
@@ -54,6 +78,12 @@
   width: 100%;
   height: 30vw;
   position: relative;
+}
+
+@media screen and (max-width: 500px) {
+  .contacto .parallax-section {
+    display: none;
+  }
 }
 
 .contacto .parallax-content {
