@@ -40,8 +40,7 @@
 }*/
 
 .beneficios .half {
-  display: inline-block;
-  float: left;
+
 }
 
 .beneficios .title-wrapper{
@@ -133,5 +132,9 @@
 @media screen and (max-width: 500px) {
   .beneficios .half {
     font-size: 1.2em;
+  }
+
+  .beneficios .noSmall {
+    display: none;
   }
 }
